@@ -103,8 +103,7 @@ theme_config:
     scheme: Gemini
     menu:
       home: / || fa fa-home
-      categories: /categories/ || fa fa-th
-      tags: /tags/ || fa fa-tags
+      Android: /Android/ || fab fa-android
       archives: /archives/ || fa fa-archive
       about: /about/ || fa fa-user
     avatar:
@@ -165,4 +164,6 @@ theme_config:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:lcnvals/lcnvals.github.io.git
+  branch: master
